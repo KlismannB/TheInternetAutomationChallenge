@@ -9,7 +9,7 @@ def find_the_end(browser: webdriver):
         body.send_keys(Keys.PAGE_DOWN)
 
 
-driver = webdriver.Chrome(executable_path='C:\\Users\\koliveiraba\\Downloads\\chromedriver.exe')
+driver = webdriver.Chrome(executable_path='C:\\chromedriver.exe')
 driver.get("https://the-internet.herokuapp.com/infinite_scroll")
 while(True):
     find_the_end(driver)
