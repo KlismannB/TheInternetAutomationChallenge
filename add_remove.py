@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from selenium import webdriver
 
-browser = webdriver.Chrome(executable_path='C:\\Users\\koliveiraba\\Downloads\\chromedriver.exe')
+browser = webdriver.Chrome(executable_path='C:\\chromedriver.exe')
 browser.get("https://the-internet.herokuapp.com/add_remove_elements/")
 
 add = browser.find_element_by_css_selector("button").click()
